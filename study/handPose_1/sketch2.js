@@ -36,8 +36,8 @@ function draw() {
 
     noFill();
     stroke(0, 255, 0);
-    text('안', index.x, index.y);
-    text('뇽', thumb.x, thumb.y);
+    text('바', index.x, index.y);
+    text('보', thumb.x, thumb.y);
 
     for (let i = 0; i < num; i++) {
       magnets[i].touch(thumb.x, thumb.y, index.x, index.y);

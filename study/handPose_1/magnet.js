@@ -1,4 +1,4 @@
-let textMagnets = ['최유진', '고다은', '홍서연', '이예기', '정됴댜'];
+let textMagnets = ['오송희', '허정아', '허정아', '오송희', '오송희'];
 
 class Magnet {
   constructor() {
