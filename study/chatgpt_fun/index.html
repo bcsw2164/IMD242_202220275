@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>경고문</title>
+    <style>
+      body {
+        background-color: black;
+        color: red;
+        font-family: 'Arial Black', sans-serif;
+        text-align: center;
+        padding-top: 20vh;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 3em;
+        animation: blink 1s infinite alternate;
+      }
+
+      @keyframes blink {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0.3;
+        }
+      }
+
+      .subtext {
+        color: white;
+        font-size: 1.2em;
+        margin-top: 30px;
+      }
+
+      .skull {
+        font-size: 5em;
+        margin-bottom: 20px;
+        animation: shake 0.6s infinite alternate;
+      }
+
+      @keyframes shake {
+        from {
+          transform: rotate(-5deg);
+        }
+        to {
+          transform: rotate(5deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="skull">☠️</div>
+    <h1>이예림, 30분까지 접속 안 하면</h1>
+    <h1>형벌에 처한다 ⚠️</h1>
+    <div class="subtext">콱씨</div>
+  </body>
+</html>
